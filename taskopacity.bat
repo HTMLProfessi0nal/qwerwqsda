@@ -11,3 +11,4 @@ reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize /v Sys
 tasklist /FI "IMAGENAME eq explorer.exe" /FO table
 rem csv
 taskkill /f /im explorer.exe && start explorer.exe
+exit
